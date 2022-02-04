@@ -10,6 +10,7 @@ form{
     padding: 2.5vh;
     margin-left: 5vw;
     margin-right: 5vw;
+    padding-top: 12.5vh;
 }
 
 .questionBox{
@@ -42,6 +43,8 @@ button{
     margin-left: 20vw;
     margin-right: 20vw;
     text-align: center;
+    position: relative;
+    top: 2.5vh;
 }
 
 .allContent{
