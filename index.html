@@ -9,8 +9,8 @@
 </head>
 <body>
     <p class="instructions">
-        Welcome to Quiz-Board, Check the right answer and when contented, click the submit button,
-        your score will be displayed. All the best!
+        Welcome to Quiz-Board, Check your answer and Submit. 
+        Your score will be displayed. All the best!
     </p>
 
     <div class = "heading">
@@ -25,14 +25,14 @@
                 <p>
                   1).  Which of the following is NOT an array method that adds items.
                 </p>
-                <input type="radio" name="question1"  value="wrong">
-                <label for="">.push()</label> <br>
+                <input type="radio" name="question1" id="ans1a" value="wrong">
+                <label for="ans1a"">.push()</label> <br>
                
-                <input type="radio" name="question1" class="correctAns"value="correct">
-                <label for="">.pop()</label><br>
+                <input type="radio" name="question1" id="ans1b" class="correctAns"value="correct">
+                <label for="ans1b">.pop()</label><br>
                 
-                <input type="radio" name="question1" value="wrong">
-                <label for="">.unshift()</label>
+                <input type="radio" name="question1" id="ans1c"  value="wrong">
+                <label for="ans1c">.unshift()</label>
                 
 
             </div>
@@ -42,11 +42,11 @@
                    2). A javascript array can contain both integers and numbers. TRUE or FALSE.
 
                 </p>
-                <input type="radio" name="question2" class="correctAns" value="correct">
-                <label for="">TRUE</label><br>
+                <input type="radio" name="question2" id="ans2a" class="correctAns" value="correct">
+                <label for="ans2a">TRUE</label><br>
 
                 <input type="radio" name="question2" value="wrong">
-                <label for="">FALSE</label>
+                <label for="ans2b">FALSE</label>
 
 
             </div>
@@ -57,14 +57,14 @@
                    3). Choose the correct syntax of creating an array in Javascript.
                 </p>
 
-                <input type="radio" name="question3" class="correctAns" value="correct">
-                <label for=""> arr = ['js','css',2] </label><br>
+                <input type="radio" name="question3" id="ans3a" class="correctAns" value="correct">
+                <label for="ans3a"> arr = ['js','css',2] </label><br>
 
-                <input type="radio" name="question3" value="wrong">
-                <label for=""> arr = {'js','css',2}</label><br>
+                <input type="radio" name="question3" id="ans3b" value="wrong">
+                <label for="ans3b"> arr = {'js','css',2}</label><br>
 
-                <input type="radio" name="question3" value="wrong">
-                <label for=""> arr = 'js', 'css', 2</label><br>
+                <input type="radio" name="question3" id="ans3c" value="wrong">
+                <label for="ans3c"> arr = 'js', 'css', 2</label><br>
             </div>
 
 
@@ -73,11 +73,11 @@
                    4). A javascript file can be added in the HTML body. TRUE or FALSE?
                 </p>
 
-                <input type="radio" name="question4" value="wrong">
-                <label for="">FALSE</label><br>
+                <input type="radio" name="question4" id="ans4a" value="wrong">
+                <label for="ans4a">FALSE</label><br>
 
-                <input type="radio" name="question4" class="correctAns"  value="correct">
-                <label for="">TRUE</label><br>
+                <input type="radio" name="question4" id="ans4b" class="correctAns"  value="correct">
+                <label for="ans4b">TRUE</label><br>
 
             </div>
 
@@ -86,14 +86,14 @@
                    5). A javascript file has which extension?
                 </p>
 
-                <input type="radio" name="question5" value="wrong">
-                <label for="">.css</label><br>
+                <input type="radio" name="question5" id="ans5a" value="wrong">
+                <label for="ans5a">.css</label><br>
 
-                <input type="radio" name="question5" value="wrong">
-                <label for="">.json</label><br>
+                <input type="radio" name="question5" id="ans5b" value="wrong">
+                <label for="ans5b">.json</label><br>
 
-                <input type="radio" name="question5"class="correctAns"  value="correct">
-                <label for="">.js</label>
+                <input type="radio" name="question5"class="correctAns" id="ans5c" value="correct">
+                <label for="ans5c">.js</label>
             </div>
 
             
@@ -107,14 +107,14 @@
                    6). Which of the following is NOT a DOM method?
                 </p>
 
-                <input type="radio" name="question6" class="correctAns" value="correct">
-                <label for="">getElementsById()</label><br>
+                <input type="radio" name="question6" class="correctAns"id="ans6a" value="correct">
+                <label for="ans6a">getElementsById()</label><br>
 
-                <input type="radio" name="question6" value="wrong">
-                <label for="">getElementsByClassName()</label><br>
+                <input type="radio" name="question6" id="ans6b" value="wrong">
+                <label for="ans6b">getElementsByClassName()</label><br>
 
-                <input type="radio" name="question6" value="wrong">
-                <label for="">getElementsByTagName()</label>
+                <input type="radio" name="question6" id="ans6c"value="wrong">
+                <label for="ans6c">getElementsByTagName()</label>
             </div>
 
             <div class="questionBox">
@@ -173,18 +173,18 @@
         </div>
     </div>
 
-    <button type="submit" id="submit">SUBMIT</button>
+    <button type="submit" id="submit" disabled>SUBMIT</button>
     </form>
 
 
-    <div class="showAnswer">
+    <!-- <div class="showAnswer">
         <h3>Quiz-Board</h3>
 
         <p>
             Your Score is: <br>
-            <span>           </span>
+        
         </p>
-    </div>
+    </div> -->
     
 
     <script src="./Js/scripty.js"></script>
