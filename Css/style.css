@@ -11,6 +11,9 @@ form{
 
 .questionBox{
     background-color: #3B9287;
+    height: 25vh;
+    width: 25vw;
+
 }
 
 button{
@@ -19,4 +22,19 @@ button{
 
 .heading{
     background-image: linear-gradient(to right, #3B9287,white);
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+
+.allContent{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:767px){
+    .allContent{
+        flex-direction: column;
+    }
+
 }
