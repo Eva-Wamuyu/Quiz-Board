@@ -25,10 +25,10 @@
                 <p>
                     Which of the following is NOT an array method that adds items.
                 </p>
-                <input type="radio" name="question1" value="wrong">
+                <input type="radio" name="question1"  value="wrong">
                 <label for="">.push()</label> <br>
                
-                <input type="radio" name="question1" value="correct">
+                <input type="radio" name="question1" class="correctAns"value="correct">
                 <label for="">.pop()</label><br>
                 
                 <input type="radio" name="question1" value="wrong">
@@ -42,7 +42,7 @@
                     A javascript array can contain both integers and numbers. TRUE or FALSE.
 
                 </p>
-                <input type="radio" name="question2" value="correct">
+                <input type="radio" name="question2" class="correctAns" value="correct">
                 <label for="">TRUE</label><br>
 
                 <input type="radio" name="question2" value="wrong">
@@ -57,7 +57,7 @@
                     Choose the correct syntax of creating an array in Javascript.
                 </p>
 
-                <input type="radio" name="question3" value="correct">
+                <input type="radio" name="question3" class="correctAns" value="correct">
                 <label for=""> arr = ['js','css',2] </label><br>
 
                 <input type="radio" name="question3" value="wrong">
@@ -73,7 +73,7 @@
                     A javascript file can be added in the HTML body. TRUE or FALSE?
                 </p>
 
-                <input type="radio" name="question4" value="wrong">
+                <input type="radio" name="question4" class="correctAns" value="wrong">
                 <label for="">FALSE</label><br>
 
                 <input type="radio" name="question4" value="correct">
@@ -86,7 +86,7 @@
                     A javascript file has which extension?
                 </p>
 
-                <input type="radio" name="question5" value="wrong">
+                <input type="radio" name="question5" class="correctAns" value="wrong">
                 <label for="">.css</label><br>
 
                 <input type="radio" name="question5" value="wrong">
@@ -107,7 +107,7 @@
                     Which of the following is NOT a DOM method?
                 </p>
 
-                <input type="radio" name="question6" value="correct">
+                <input type="radio" name="question6" class="correctAns" value="correct">
                 <label for="">getElementsById()</label><br>
 
                 <input type="radio" name="question6" value="wrong">
@@ -122,7 +122,7 @@
                     Which string method extracts part of a string and returns the extracted part in a new string?
                 </p>
 
-                <input type="radio" name="question7" value="correct">
+                <input type="radio" name="question7" class="correctAns" value="correct">
                 <label for="">slice()</label><br>
                 <input type="radio" name="question7" value="wrong">
                 <label for="">toUpperCase()</label><br>
@@ -135,11 +135,11 @@
                     The tag used to link a javascript file to a html file is ...
                 </p>
 
-                <input type="radio" name="question8" value="wrong">
+                <input type="radio" name="question8"  value="wrong">
                 <label for=""> &ltlink&gt  &lt/link&gt  </label><br>
                 <input type="radio" name="question8" value="wrong">
                 <label for="">&ltsrc&gt  &lt/src&gt</label><br>
-                <input type="radio" name="question8" value="correct">
+                <input type="radio" name="question8" class="correctAns" value="correct">
                 <label for="">&ltscript&gt  &lt/script&gt</label>
             </div>
 
@@ -148,11 +148,11 @@
                     The javascript function that removes whitespace from both sides of a string is ...
                 </p>
 
-                <input type="radio" name="question9" value="correct">
+                <input type="radio" name="question9" class="correctAns" value="correct">
                 <label for="">trim()</label><br>
-                <input type="radio" name="question8" value="wrong">
+                <input type="radio" name="question9" value="wrong">
                 <label for="">remove()</label><br>
-                <input type="radio" name="question8" value="wrong">
+                <input type="radio" name="question9" value="wrong">
                 <label for="">rand()</label>
             </div>
 
@@ -161,20 +161,13 @@
                     The keyword used to show a constant variable in Javascript is ...
                 </p>
 
-                <input type="radio" name="question9" value="wrong">
+                <input type="radio" name="question10" value="wrong">
                 <label for="">var</label><br>
-                <input type="radio" name="question9" value="correct">
+                <input type="radio" name="question10" class="correctAns" value="correct">
                 <label for=""> const</label><br>
-                <input type="radio" name="question9" value="wrong">
+                <input type="radio" name="question10" value="wrong">
                 <label for="">let</label>
             </div>
-
-
-
-
-
-
-
 
 
         </div>
@@ -182,6 +175,13 @@
 
     <button type="submit" id="submit">SUBMIT</button>
     </form>
+
+
+    <div class="showAnswer">
+        <p>
+
+        </p>
+    </div>
     
 
     <script src="./Js/scripty.js"></script>
