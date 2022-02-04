@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    background-color: #82A9AB;
+}
+form{
+    background-color: #EDF6F6;
+}
+
+.questionBox{
+    background-color: #3B9287;
+}
+
+button{
+    background-color: #37CE1E;
+}
+
+.heading{
+    background-image: linear-gradient(to right, #3B9287,white);
+}
