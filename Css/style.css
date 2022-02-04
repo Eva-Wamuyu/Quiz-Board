@@ -1,3 +1,5 @@
+@import "//fonts.googleapis.com/css?family=Waiting+for+the+Sunrise";
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,13 +14,17 @@ form{
     margin-right: 5vw;
     padding-top: 12.5vh;
 }
-
+.instructions{
+    text-align: center;
+    padding: 2.5vh 17.5vw;
+}
 .questionBox{
     background-color: #3B9287;
-    height: 25vh;
+    height: 27.5vh;
     width: 37.5vw;
     padding: 2.5vh;
     margin-bottom: 2vh;
+    line-height: 2;
 
 }
 .leftSide .questionBox{
@@ -56,6 +62,9 @@ button{
     .allContent{
         flex-direction: column;
         justify-content: space-around;
+    }
+    .questionBox{
+        line-height: normal;
     }
 
 }
