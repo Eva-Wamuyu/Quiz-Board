@@ -40,8 +40,18 @@ button{
     box-sizing: content-box;
     background-color: #37CE1E;
     height: 5vh;
-    margin-left: 42.5vw;
     width: 15vw;
+    position: relative;
+    left: 35.5vw;
+}
+button:disabled{
+    background-color: gray;
+    color: wheat;
+
+}
+button:enabled:hover{
+    background-color: #82A9AB;
+    color: black;
 }
 
 .heading{
@@ -51,6 +61,7 @@ button{
     text-align: center;
     position: relative;
     top: 2.5vh;
+    font-family: 'Waiting for the Sunrise', sans-serif;
 }
 
 .allContent{
@@ -60,11 +71,23 @@ button{
 
 @media only screen and (max-width:767px){
     .allContent{
-        flex-direction: column;
-        justify-content: space-around;
+        display: block;
+
     }
     .questionBox{
-        line-height: normal;
+        line-height: 2;
+        width: auto;
+        
+    }
+
+
+    .leftSide .questionBox{
+        margin-left: 0;
+    
+    }
+    .rightSide .questionBox{
+        margin-right: 0;
+    
     }
 
 }
