@@ -17,7 +17,11 @@
     <h1>Quiz-Board</h1>
     </div>
 
+  
+   
+
     <form action="">
+       
 
     <div class="allContent">
         <div class="rightSide">
@@ -122,12 +126,12 @@
                    7). Which string method extracts part of a string and returns the extracted part in a new string?
                 </p>
 
-                <input type="radio" name="question7" class="correctAns" value="correct">
+                <input type="radio" name="question7" class="correctAns" id="ans7a" value="correct">
                 <label for="">slice()</label><br>
-                <input type="radio" name="question7" value="wrong">
-                <label for="">toUpperCase()</label><br>
-                <input type="radio" name="question7" value="wrong">
-                <label for="">length()</label>
+                <input type="radio" name="question7" id="ans7b" value="wrong">
+                <label for="ans7b">toUpperCase()</label><br>
+                <input type="radio" name="question7" id="ans7c" value="wrong">
+                <label for="ans7c">length()</label>
             </div>
 
             <div class="questionBox">
@@ -135,12 +139,12 @@
                     8). The tag used to link a javascript file to a html file is ...
                 </p>
 
-                <input type="radio" name="question8"  value="wrong">
+                <input type="radio" name="question8" id="ans8a" value="wrong">
                 <label for=""> &ltlink&gt  &lt/link&gt  </label><br>
-                <input type="radio" name="question8" value="wrong">
-                <label for="">&ltsrc&gt  &lt/src&gt</label><br>
-                <input type="radio" name="question8" class="correctAns" value="correct">
-                <label for="">&ltscript&gt  &lt/script&gt</label>
+                <input type="radio" name="question8"id="ans7b" value="wrong">
+                <label for="ans8b">&ltsrc&gt  &lt/src&gt</label><br>
+                <input type="radio" name="question8" id="ans7c" class="correctAns" value="correct">
+                <label for="ans8c">&ltscript&gt  &lt/script&gt</label>
             </div>
 
             <div class="questionBox">
@@ -148,12 +152,12 @@
                     9). The javascript function that removes whitespace from both sides of a string is ...
                 </p>
 
-                <input type="radio" name="question9" class="correctAns" value="correct">
-                <label for="">trim()</label><br>
-                <input type="radio" name="question9" value="wrong">
-                <label for="">remove()</label><br>
-                <input type="radio" name="question9" value="wrong">
-                <label for="">rand()</label>
+                <input type="radio" name="question9" id="ans9a" class="correctAns" value="correct">
+                <label for="ans9a">trim()</label><br>
+                <input type="radio" name="question9"id="ans9b" value="wrong">
+                <label for="ans9b">remove()</label><br>
+                <input type="radio" name="question9" id="ans9c" value="wrong">
+                <label for="ans9c">rand()</label>
             </div>
 
             <div class="questionBox">
@@ -161,30 +165,39 @@
                    10). The keyword used to show a constant variable in Javascript is ...
                 </p>
 
-                <input type="radio" name="question10" value="wrong">
-                <label for="">var</label><br>
-                <input type="radio" name="question10" class="correctAns" value="correct">
-                <label for=""> const</label><br>
-                <input type="radio" name="question10" class="correctAns" value="wrong">
-                <label for="">let</label>
+                <input type="radio" name="question10" id="ans10a" value="wrong">
+                <label for="ans10a">var</label><br>
+                <input type="radio" name="question10" id="ans10b" class="correctAns" value="correct">
+                <label for="ans10b"> const</label><br>
+                <input type="radio" name="question10" id="ans10c" class="correctAns" value="wrong">
+                <label for="ans10c">let</label>
             </div>
 
 
         </div>
     </div>
 
-    <button type="submit" id="submit" disabled>SUBMIT</button>
+    <button type="submit" id="submit" >SUBMIT</button>
     </form>
 
 
-    <!-- <div class="showAnswer">
-        <h3>Quiz-Board</h3>
+   
+
+
+
+    <div class="showAnswer">
+        <span class="close">X</span>
+        <h3>RESULTS</h3>
+        
 
         <p>
             Your Score is: <br>
+            <p id="scoreBoard">
+                --
+            </p>
         
         </p>
-    </div> -->
+    </div>
     
 
     <script src="./Js/scripty.js"></script>
