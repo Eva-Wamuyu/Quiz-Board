@@ -36,20 +36,16 @@ form{
 
 }
 
-button{
-    box-sizing: content-box;
+#submit{
+
     background-color: #37CE1E;
     height: 5vh;
     width: 15vw;
     position: relative;
     left: 35.5vw;
 }
-button:disabled{
-    background-color: gray;
-    color: wheat;
 
-}
-button:enabled:hover{
+#submit:enabled:hover{
     background-color: #82A9AB;
     color: black;
 }
@@ -90,4 +86,20 @@ button:enabled:hover{
     
     }
 
+}
+
+
+.showAnswer{
+    
+    border: solid black 2px;
+    height: 25vh;
+    width: 50vw;
+    font-family: "waiting for the sunrise";
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 27.5vw;
+    padding-top: 2.5vh;
+  
 }
