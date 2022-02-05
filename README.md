@@ -29,7 +29,7 @@ Figma mobile design [here](https://www.figma.com/file/UWQPYp4Yf9dr0kFuWIRdbi/Qui
 
 * Access to the Internet
 
-* Click [here]() 
+* Click [here](https://eva-wamuyu.github.io/Quiz-Board/) 
 
 
 [Go Back to the top](# JS Quiz-Board Game)
