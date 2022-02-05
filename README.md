@@ -43,7 +43,7 @@ Figma mobile design [here](https://www.figma.com/file/UWQPYp4Yf9dr0kFuWIRdbi/Qui
 
 ## Bugs
 
-No known bug at the moment.
+As of 5thFeb21, the questions are not resetting on submission
 
 ## Contact Information
 
