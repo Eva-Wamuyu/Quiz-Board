@@ -45,11 +45,3 @@ function displaying(){
 }
 
 buttonQuery.addEventListener("click",displaying);
-
-close = document.getElementsByClassName("close");
-
-close.addEventListener("click",clearingForm)
-
-function clearingForm(){
-    
-}
